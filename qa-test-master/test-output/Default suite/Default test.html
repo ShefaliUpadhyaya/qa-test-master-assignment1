@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 09 15:32:47 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (69 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testquestion1.Test_MyCollection.Test10_Rotate_Array()'><b>Test10_Rotate_Array</b><br>Test class: testquestion1.Test_MyCollection<br>Test method: Left Rotation Collection Functionality<br/>
+<a href="#Output-2647928" onClick='toggleBox("Output-2647928", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2647928" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2647928">
+[INFO] : Assertion Passed : Rotation is working fine<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testquestion1.Test_MyCollection@82f6ef</td></tr>
+<tr>
+<td title='testquestion1.Test_MyCollection.Test1_Able_To_Add_New_Entry_In_Collection()'><b>Test1_Able_To_Add_New_Entry_In_Collection</b><br>Test class: testquestion1.Test_MyCollection<br>Test method: Check Add functionality<br/>
+<a href="#Output-7815330" onClick='toggleBox("Output-7815330", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7815330" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7815330">
+[INFO] : Assertion Passed : Add New Entry functionality is working fine<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testquestion1.Test_MyCollection@82f6ef</td></tr>
+<tr>
+<td title='testquestion1.Test_MyCollection.Test2_Duplicate_Entry_In_Collection()'><b>Test2_Duplicate_Entry_In_Collection</b><br>Test class: testquestion1.Test_MyCollection<br>Test method: Check Add functionality<br/>
+<a href="#Output-27655731" onClick='toggleBox("Output-27655731", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27655731" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27655731">
+[INFO] : Assertion Passed : Not able to add duplicate number<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testquestion1.Test_MyCollection@82f6ef</td></tr>
+<tr>
+<td title='testquestion1.Test_MyCollection.Test3_Get_Collection_Functionality()'><b>Test3_Get_Collection_Functionality</b><br>Test class: testquestion1.Test_MyCollection<br>Test method: Check toString function<br/>
+<a href="#Output-3213500" onClick='toggleBox("Output-3213500", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3213500" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3213500">
+[INFO] : Assertion Passed : Able to read collection<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testquestion1.Test_MyCollection@82f6ef</td></tr>
+<tr>
+<td title='testquestion1.Test_MyCollection.Test4_DoubleCapacity()'><b>Test4_DoubleCapacity</b><br>Test class: testquestion1.Test_MyCollection<br>Test method: Check Overflow Collection<br/>
+<a href="#Output-17250009" onClick='toggleBox("Output-17250009", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17250009" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17250009">
+[INFO] : Assertion Passed : Able to increase collection capacity<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testquestion1.Test_MyCollection@82f6ef</td></tr>
+<tr>
+<td title='testquestion1.Test_MyCollection.Test5_Remove_Functionality_If_Entry_Already_Present()'><b>Test5_Remove_Functionality_If_Entry_Already_Present</b><br>Test class: testquestion1.Test_MyCollection<br>Test method: Check remove functionality<br/>
+<a href="#Output-27067083" onClick='toggleBox("Output-27067083", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27067083" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27067083">
+[INFO] : Assertion Passed : Able to remove entry from collection<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testquestion1.Test_MyCollection@82f6ef</td></tr>
+<tr>
+<td title='testquestion1.Test_MyCollection.Test6_Remove_Functionality_If_Collection_Is_Empty()'><b>Test6_Remove_Functionality_If_Collection_Is_Empty</b><br>Test class: testquestion1.Test_MyCollection<br>Test method: Check remove functionality<br/>
+<a href="#Output-24460141" onClick='toggleBox("Output-24460141", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24460141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24460141">
+[INFO] : Assertion Passed : Can handle remove parameter if collection is empty<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testquestion1.Test_MyCollection@82f6ef</td></tr>
+<tr>
+<td title='testquestion1.Test_MyCollection.Test7_Collection_Length_Functionality()'><b>Test7_Collection_Length_Functionality</b><br>Test class: testquestion1.Test_MyCollection<br>Test method: Size of Collection<br/>
+<a href="#Output-17414999" onClick='toggleBox("Output-17414999", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17414999" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17414999">
+[INFO] : Assertion Passed : Collection length is correct<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testquestion1.Test_MyCollection@82f6ef</td></tr>
+<tr>
+<td title='testquestion1.Test_MyCollection.Test8_Search_Functionality_If_Enrty_Exists()'><b>Test8_Search_Functionality_If_Enrty_Exists</b><br>Test class: testquestion1.Test_MyCollection<br>Test method: Search Functionality<br/>
+<a href="#Output-20375825" onClick='toggleBox("Output-20375825", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20375825" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20375825">
+[INFO] : Assertion Passed : Function returns position of entry in collection<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testquestion1.Test_MyCollection@82f6ef</td></tr>
+<tr>
+<td title='testquestion1.Test_MyCollection.Test9_Search_Functionality_If_Enrty_Not_Exists()'><b>Test9_Search_Functionality_If_Enrty_Not_Exists</b><br>Test class: testquestion1.Test_MyCollection<br>Test method: Search Functionality<br/>
+<a href="#Output-668710" onClick='toggleBox("Output-668710", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-668710" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-668710">
+[INFO] : Assertion Passed : Function returns -1 if entry is not present<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testquestion1.Test_MyCollection@82f6ef</td></tr>
+</table><p>
+</body>
+</html>
